@@ -1,0 +1,71 @@
+=== RAW DATA ===
+Shape: 700 rows x 16 columns
+Columns: ['Segment', 'Country', 'Product', 'Discount Band', 'Units Sold', 'Manufacturing Price', 'Sale Price', 'Gross Sales', 'Discounts', ' Sales', 'COGS', 'Profit', 'Date', 'Month Number', 'Month Name', 'Year']
+
+[Clean 1] Column names stripped/standardised (e.g. ' Sales' -> 'sales').
+[Clean 2] Text trimmed; 'United States of America' shortened to 'USA' for charts.
+
+[Clean 3] Missing values per column:
+Discount Band    53
+          Discount Band is blank in 53 rows and Discounts = 0 in ALL of them (True) -> blank means 'no discount'. Filled with 'None' (value is NOT guessed).
+
+[Clean 4] Fully duplicated rows: 0 (nothing to drop).
+[Clean 5] Date converted to datetime.
+
+[Check] Gross Sales - Discounts = Sales   (max error 0.000000)  OK
+[Check] Sales - COGS = Profit             (max error 0.000000)  OK
+[Check] Units x Sale Price = Gross Sales  (max error 0.000000)  OK
+[Check] Date vs Month/Year columns mismatch: 0 rows  OK
+
+[Feature] Added: profit_margin_pct, discount_pct, month (YYYY-MM), is_loss.
+
+=== EXPLORATION ===
+Date range: 2013-09-01 to 2014-12-01
+  -> 2013 contains only Sep-Dec (4 months); 2014 has all 12 months. Year-over-year totals are NOT like-for-like (see report).
+
+segment value counts:
+segment
+Government          300
+Midmarket           100
+Channel Partners    100
+Enterprise          100
+Small Business      100
+
+country value counts:
+country
+Germany    140
+Canada     140
+France     140
+Mexico     140
+USA        140
+
+product value counts:
+product
+Paseo        202
+Velo         109
+VTT          109
+Amarilla      94
+Carretera     93
+Montana       93
+
+discount_band value counts:
+discount_band
+High      245
+Medium    242
+Low       160
+None       53
+
+Loss-making rows (profit < 0): 58 of 700
+
+Numeric summary:
+       units_sold  gross_sales  discounts      sales      cogs    profit
+count       700.0        700.0      700.0      700.0     700.0     700.0
+mean       1608.3     182759.4    13150.4   169609.1  145475.2   24133.9
+std         867.4     254262.3    22962.9   236726.3  203865.5   42760.6
+min         200.0       1799.0        0.0     1655.1     918.0  -40617.5
+25%         905.0      17391.8      800.3    15928.0    7490.0    2806.0
+50%        1542.5      37980.0     2585.2    35540.2   22506.2    9242.2
+75%        2229.1     279025.0    15956.3   261077.5  245607.5   22662.0
+max        4492.5    1207500.0   149677.5  1159200.0  950625.0  262200.0
+
+Profit outliers by IQR rule: 103 rows (kept - they are real large deals, not errors).

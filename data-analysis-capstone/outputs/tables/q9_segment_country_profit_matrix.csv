@@ -1,0 +1,26 @@
+segment,country,profit
+Channel Partners,Canada,358978.0
+Channel Partners,France,271581.0
+Channel Partners,USA,267995.0
+Channel Partners,Germany,247359.0
+Channel Partners,Mexico,170890.0
+Enterprise,France,-95749.0
+Enterprise,Germany,-101474.0
+Enterprise,Mexico,-120679.0
+Enterprise,Canada,-121509.0
+Enterprise,USA,-175135.0
+Government,France,2709915.0
+Government,Germany,2677176.0
+Government,Canada,2258472.0
+Government,Mexico,2039159.0
+Government,USA,1703451.0
+Midmarket,France,164542.0
+Midmarket,Mexico,150546.0
+Midmarket,Canada,132489.0
+Midmarket,USA,127171.0
+Midmarket,Germany,85355.0
+Small Business,USA,1072059.0
+Small Business,Canada,900799.0
+Small Business,Germany,771973.0
+Small Business,France,730732.0
+Small Business,Mexico,667606.0

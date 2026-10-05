@@ -1,0 +1,2 @@
+transactions,units_sold,gross_sales,discounts,net_sales,cogs,profit,profit_margin_pct,discount_rate_pct
+700,1125806.0,127931599.0,9205248.0,118726350.0,101832648.0,16893702.0,14.23,7.2

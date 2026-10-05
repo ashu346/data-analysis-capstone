@@ -1,0 +1,31 @@
+segment,product,profit,rank_in_segment
+Channel Partners,Paseo,331838.0,1
+Channel Partners,Amarilla,230069.0,2
+Channel Partners,VTT,219766.0,3
+Channel Partners,Carretera,208406.0,4
+Channel Partners,Montana,192458.0,5
+Channel Partners,Velo,134267.0,6
+Enterprise,Montana,-31096.0,1
+Enterprise,Paseo,-81740.0,2
+Enterprise,Velo,-84763.0,3
+Enterprise,Amarilla,-95153.0,4
+Enterprise,VTT,-99083.0,5
+Enterprise,Carretera,-222712.0,6
+Government,Paseo,3057291.0,1
+Government,Amarilla,2208302.0,2
+Government,VTT,1840654.0,3
+Government,Velo,1756732.0,4
+Government,Carretera,1398994.0,5
+Government,Montana,1126201.0,6
+Midmarket,Paseo,258739.0,1
+Midmarket,Carretera,94105.0,2
+Midmarket,VTT,91121.0,3
+Midmarket,Montana,83879.0,4
+Midmarket,Velo,68653.0,5
+Midmarket,Amarilla,63605.0,6
+Small Business,Paseo,1231310.0,1
+Small Business,VTT,982150.0,2
+Small Business,Montana,743314.0,3
+Small Business,Velo,431103.0,4
+Small Business,Amarilla,407281.0,5
+Small Business,Carretera,348012.0,6

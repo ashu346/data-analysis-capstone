@@ -1,0 +1,11 @@
+insight
+"Total net sales are $118.7M with $16.9M profit (14.2% margin) across 700 transactions; discounts total $9.2M (7.2% of gross sales)."
+"Government is the engine: 44% of net sales but 67% of profit (21.7% margin). Channel Partners have the best margin (73%) but only 1.5% of sales."
+"Enterprise is the problem segment: $19.6M of sales but a net LOSS of $0.61M (-3.1% margin). All 58 loss-making deals in the dataset are Enterprise deals."
+"Root cause: Enterprise sells at 125 per unit against a unit cost of 120, a 4% gross margin. Any discount above 4% turns the deal into a loss (High band: -9.5% margin)."
+"Discounting erodes profit everywhere: margin falls from 21.9% (no discount) to 17.9% (Low), 14.4% (Medium) and 9.1% (High), while High-band deals are 35% of all deals."
+"Small Business has high sales ($42.4M) but only 9.8% margin; with High discounts margin drops to 4.6%."
+"USA has the highest sales ($25.0M) but the lowest margin (12.0%) and highest discount rate (8.2%). France and Germany have the best margins (15.5-15.7%)."
+"Paseo is the top product (28% of sales, $4.8M profit). Product margins are similar (12.6%-15.9%), so product mix matters less than segment and discount policy."
+"Sales are seasonal: Oct and Dec 2014 were the two biggest months ($12.4M and $12.0M); Nov 2014 dipped to $5.4M."
+"Like-for-like (Sep-Dec): 2014 net sales are $36.2M vs $26.4M in 2013 (+37%). Raw 2013 vs 2014 totals are not comparable because 2013 has only 4 months of data."

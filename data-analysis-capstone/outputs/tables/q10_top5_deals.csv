@@ -1,0 +1,6 @@
+segment,country,product,date,net_sales,profit
+Government,USA,Paseo,2014-07-01,1159200.0,262200.0
+Government,France,Amarilla,2014-02-01,962500.0,247500.0
+Government,Germany,Velo,2013-10-01,1017338.0,246178.0
+Government,Germany,Amarilla,2013-10-01,1017338.0,246178.0
+Government,Germany,Velo,2014-10-01,986811.0,238791.0

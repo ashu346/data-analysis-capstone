@@ -1,0 +1,5 @@
+discount_band,deals,avg_discount_pct,net_sales,profit,margin_pct,loss_making_deals
+None,53,0.0,7943654.0,1736455.0,21.9,0
+Low,160,2.5,34629779.0,6188858.0,17.9,0
+Medium,242,7.2,38780431.0,5579523.0,14.4,25
+High,245,12.5,37372487.0,3388867.0,9.1,33
